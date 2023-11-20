@@ -1,0 +1,28 @@
+
+outputs:
+
+cvm_password = "password123"
+harbor_url = "http://harbor.houbinglei.devopscamp.us, admin, Harbor12345"
+jenkins_url = "http://jenkins.houbinglei.devopscamp.us, admin, password123"
+kube_config = "./config.yaml"
+public_ip = "119.28.32.65"
+tekton_url = "http://tekton.houbinglei.devopscamp.us, (not ready yet)"
+
+
+
+Outputs:
+
+cvm_password = "password123"
+harbor_login_info = "Username: admin, Password: Harbor12345"
+harbor_url = "https://harbor.houbinglei.devopscamp.us"
+kube_config = "./config.yaml"
+public_ip = "43.129.210.103"
+
+
+
+github token:
+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
+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
+
+
+http://jenkins.houbinglei.devopscamp.us/github-webhook/

@@ -1,0 +1,18 @@
+apiVersion: external-secrets.io/v1alpha1
+kind: PushSecret
+metadata:
+  name: pushsecret-example
+  namespace: external-secrets
+spec:
+  refreshInterval: 10s
+  secretStoreRefs:
+  - name: secret-store-vault
+    kind: ClusterSecretStore
+  selector:
+    secret:
+      name: vault-token.default
+  data:
+  - match:
+      secretKey: token
+      remoteRef:
+        remoteKey: Test/example
